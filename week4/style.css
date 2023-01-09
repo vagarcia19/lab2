@@ -1,3 +1,22 @@
-table, th, td {
-    border: 1px solid;
-  }
+h1{
+    font-size: 100px;
+    text-align: center;
+}
+h2{
+    font-size: 75px;
+    text-align: center;
+}
+h3{
+    font-size: 30px;
+    text-align: center;
+}
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+body{
+    background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
+    background-color: blueviolet;
+}
