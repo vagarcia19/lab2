@@ -1,7 +1,7 @@
 body
 {
   min-height: 100vh;
-  overflow-x: ;
+  overflow-x: hidden;
   background: linear-gradient(#404040,#808080);
 }
 header
@@ -161,7 +161,8 @@ section img#bundok
 div.forms{
   position: absolute;
   font-size: 20px;
+  font-family: ;
   z-index: 9;
-  top: 30%;
-  left: 50%;
+  top: 20%;
+  left: 35%;
 }
