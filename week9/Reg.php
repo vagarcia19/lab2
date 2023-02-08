@@ -27,7 +27,6 @@
         <li><a href="Reg.php">Register</a></1i>
       </ul>
     </header>
-</header>
     <img src="stars.png" id="stars" width="120%" height="120%">
         <?php
             // define variables and set to empty values
