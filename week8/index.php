@@ -3,9 +3,19 @@
 <body>
 
 <?php
-echo "Week 8 Introduction PHP Script";
+$txt = "Hello world!";
+$x = 5;
+$y = 10.5;
+
+echo $txt;
 echo "<br>";
-echo "Woooohhhoooooo!!!"
+echo "<br>";
+echo $x;
+echo "<br>";
+echo "<br>";
+echo $y;
+echo "<br>";
+echo "<br>";
 ?>
 
 </body>
