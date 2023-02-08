@@ -32,7 +32,7 @@
     <img src="moon.png" id="moon">
     <img src="mountains_behind.png" id="mountains_behind"width="100%" height="100%">
     <h2 id="text">welcome</h2>
-    <a href="Click.html" id="btn">About me</a>
+    <a href="Click.php" id="btn">About me</a>
     <img src="bundok.png" id="bundok"width="100%" height="100%">
 </section>
 
