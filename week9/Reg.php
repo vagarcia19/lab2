@@ -29,8 +29,6 @@
     </header>
 </header>
     <img src="stars.png" id="stars" width="120%" height="120%">
-    <div>
-        
         <?php
             // define variables and set to empty values
             $nameErr = $emailErr = $genderErr = $websiteErr = "";
@@ -80,7 +78,5 @@
             }
             }
         ?>
-    </div>
-
   </body>
 </html>
