@@ -25,7 +25,7 @@
     <ul>
         <li><a href="index.php" class="active">Home</a></li>
         <li><a href="https://www.facebook.com/dakto.box">Facebook</a></1i>
-        <li><a href="Reg.php">Register</a></1i>
+        <li><a href="vagarcia_guests.php">My Guests</a></1i>
     </ul>
 </header>
     <img src="stars.png" id="stars" width="120%" height="120%">
@@ -144,7 +144,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 	VALUES ('$name', '$email','$website','$comment','$gender')";
 	
 	if ($conn->query($sql) === TRUE) {
-	echo "New record created successfully";
+	"<br>"
+    echo "New record created successfully";
 	} else {
 	echo "Error: " . $sql . "<br>" . $conn->error;
 	}
