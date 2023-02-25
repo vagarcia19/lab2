@@ -24,7 +24,7 @@
       <ul>
         <li><a href="index.php" class="active">Home</a></li>
         <li><a href="https://www.facebook.com/dakto.box">Facebook</a></1i>
-        <li><a href="Reg.php">Register</a></1i>
+        <li><a href="reg2.php">Register</a></1i>
       </ul>
     </header>
 </header>
