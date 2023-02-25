@@ -27,11 +27,6 @@
         <li><a href="reg2.php">Register</a></1i>
       </ul>
     </header>
-
-  <section>
-    <img src="stars.png" id="stars" width="120%" height="120%">
-  </section>
-
 <div>
     <?php
         $servername = "192.168.150.213";
