@@ -22,15 +22,16 @@
     <header>
       <a href="#" class="logo">vieron</a>
       <ul>
-        <li><a href="index.php" class="active">Home</a></li>
-        <li><a href="https://www.facebook.com/dakto.box">Facebook</a></1i>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="vagarcia_guests.php">My Guests</a></1i>
         <li><a href="reg2.php">Register</a></1i>
       </ul>
     </header>
-</header>
-<div>
+
+  <section>
     <img src="stars.png" id="stars" width="120%" height="120%">
-    <img src="dp.jpg" id="dp" >
+  </section>
+<div>
 
     <p id="about">
         Hi I'm Vieron Jhomel Garcia, from Taguig City. <br>
