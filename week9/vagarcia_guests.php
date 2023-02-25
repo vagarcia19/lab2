@@ -48,10 +48,11 @@
         $sql = "SELECT id, name, email, website, comment, gender FROM vagarcia_myguests";
         $result = $conn->query($sql);
 
+        echo "<h2> Your Guests </h2>";
         if ($result->num_rows > 0) {
             // output data of each row
             while($row = $result->fetch_assoc()) {
-            echo "Your guests:". "id: " . $row["id"]. " - Name: " . $row["name"]. " - Email" . $row["email"]. " - Website: " . $row["website"]. " - Comment: " . $row["comment"]. " - Gender: " . $row["gender"]."<br>";
+            echo "id: " . $row["id"]. " - Name: " . $row["name"]. " - Email" . $row["email"]. " - Website: " . $row["website"]. " - Comment: " . $row["comment"]. " - Gender: " . $row["gender"]."<br>";
             }
         } else {
             echo "0 results";
