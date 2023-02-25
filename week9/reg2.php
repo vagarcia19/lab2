@@ -121,6 +121,7 @@
         echo $comment;
         echo "<br>";
         echo $gender;
+        echo "<br>";
     ?>
 
 <?php
