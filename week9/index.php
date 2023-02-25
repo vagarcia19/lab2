@@ -36,25 +36,22 @@
     <img src="bundok.png" id="bundok"width="100%" height="100%">
 </section>
 
-<div id="sec">
-  <h2>Resources</h2>
-  
-</div>
+
 
 <div class="footer-clean">
   <footer>
       <div class="container">
           <div class="row justify-content-center">
               <div class="col-sm-4 col-md-3 item">
-                  <h3>Services</h3>
+                  <h1>Resources</h1>
                   <ul>
-                      <li><a href="#">Web design</a></li>
+                      <i class="fa-brands fa-bootstrap"></i>
                       <li><a href="#">Development</a></li>
                       <li><a href="#">Hosting</a></li>
                   </ul>
               </div>
               <div class="col-sm-4 col-md-3 item">
-                  <h3>About</h3>
+                  <h3></h3>
                   <ul>
                       <li><a href="#">Company</a></li>
                       <li><a href="#">Team</a></li>
@@ -62,7 +59,7 @@
                   </ul>
               </div>
               <div class="col-sm-4 col-md-3 item">
-                  <h3>Careers</h3>
+                  <h3></h3>
                   <ul>
                       <li><a href="#">Job openings</a></li>
                       <li><a href="#">Employee success</a></li>
