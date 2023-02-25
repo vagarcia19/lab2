@@ -21,14 +21,16 @@
 </head>
 <body>  
 <header>
-    <a href="#" class="logo">vieron</a>
+    <a href="index.php" class="logo">vieron</a>
     <ul>
-        <li><a href="index.php" class="active">Home</a></li>
-        <li><a href="https://www.facebook.com/dakto.box">Facebook</a></1i>
-        <li><a href="Reg.php">Register</a></1i>
+    <li><a href="index.php#" class="active">Home</a></li>
+    <li><a href="vagarcia_guests.php">My Guests</a></1i>
+    <li><a href="#">Register</a></1i>
     </ul>
 </header>
+<section>
     <img src="stars.png" id="stars" width="120%" height="120%">
+</section>
 <div class = "forms">
     <?php
         // define variables and set to empty values
@@ -153,8 +155,39 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 	$conn->close();
 }	
 ?>
-
 </div>
-</forms>
+<div class="footer-clean">
+  <footer>
+      <div class="container">
+          <div class="row justify-content-center">
+              <div class="col-sm-4 col-md-3 item">
+                  <h3>Resources</h3>
+                  <ul>
+                      <li><a href="https://www.w3schools.com/">W3Schools</a></li>
+                      <li><a href="https://getbootstrap.com/">Bootstrap</a></li>
+                      <li><a href="https://fontawesome.com/">FontAwesome</a></li>
+                  </ul>
+              </div>
+              <div class="col-sm-4 col-md-3 item">
+                  <h3> --------------- </h3>
+                  <ul>
+                      <li><a href="#">HTML/CSS</a></li>
+                      <li><a href="#">JavaScript</a></li>
+                      <li><a href="#">php</a></li>
+                  </ul>
+              </div>
+              <div class="col-sm-4 col-md-3 item">
+                  <h3>  ---------------  </h3>
+                  <ul>
+                      <li><a href="#">MySQL</a></li>
+                  </ul>
+              </div>
+              <div class="col-lg-3 item social"><a href="https://www.facebook.com/dakto.box"><i class="icon ion-social-facebook"></i></a><a href="https://twitter.com/"><i class="icon ion-social-twitter"></i></a><a href="https://www.snapchat.com/"><i class="icon ion-social-snapchat"></i></a><a href="https://www.instagram.com/"><i class="icon ion-social-instagram"></i></a>
+                  <p class="copyright">Vieron © 2023</p>
+              </div>
+          </div>
+      </div>
+  </footer>
+</div>
 </body>
 </html>
