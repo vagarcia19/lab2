@@ -144,7 +144,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
 	VALUES ('$name', '$email','$website','$comment','$gender')";
 	
 	if ($conn->query($sql) === TRUE) {
-	"<br>"
     echo "New record created successfully";
 	} else {
 	echo "Error: " . $sql . "<br>" . $conn->error;
