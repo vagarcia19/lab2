@@ -51,7 +51,7 @@
                   </ul>
               </div>
               <div class="col-sm-4 col-md-3 item">
-                  <h3></h3>
+                  <h3>   </h3>
                   <ul>
                       <li><a href="#">HTML/CSS</a></li>
                       <li><a href="#">JavaScript</a></li>
@@ -59,7 +59,7 @@
                   </ul>
               </div>
               <div class="col-sm-4 col-md-3 item">
-                  <h3></h3>
+                  <h3>   </h3>
                   <ul>
                       <li><a href="#">MySQL</a></li>
                   </ul>
