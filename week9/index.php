@@ -51,7 +51,7 @@
                   </ul>
               </div>
               <div class="col-sm-4 col-md-3 item">
-                  <h3>   </h3>
+                  <h3> --------------- </h3>
                   <ul>
                       <li><a href="#">HTML/CSS</a></li>
                       <li><a href="#">JavaScript</a></li>
@@ -59,13 +59,13 @@
                   </ul>
               </div>
               <div class="col-sm-4 col-md-3 item">
-                  <h3>   </h3>
+                  <h3>  ---------------  </h3>
                   <ul>
                       <li><a href="#">MySQL</a></li>
                   </ul>
               </div>
               <div class="col-lg-3 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
-                  <p class="copyright">Company Name © 2018</p>
+                  <p class="copyright">Vieron © 2023</p>
               </div>
           </div>
       </div>
