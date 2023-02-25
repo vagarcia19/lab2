@@ -21,7 +21,7 @@
       <a href="#" class="logo">vieron</a>
       <ul>
         <li><a href="#" class="active">Home</a></li>
-        <li><a href="https://www.facebook.com/dakto.box">Facebook</a></1i>
+        <li><a href="vagarcia_guests.php">My Guests</a></1i>
         <li><a href="reg2.php">Register</a></1i>
       </ul>
     </header>
@@ -64,7 +64,7 @@
                       <li><a href="#">MySQL</a></li>
                   </ul>
               </div>
-              <div class="col-lg-3 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-snapchat"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
+              <div class="col-lg-3 item social"><a href="https://www.facebook.com/dakto.box"><i class="icon ion-social-facebook"></i></a><a href="https://twitter.com/"><i class="icon ion-social-twitter"></i></a><a href="https://www.snapchat.com/"><i class="icon ion-social-snapchat"></i></a><a href="https://www.instagram.com/"><i class="icon ion-social-instagram"></i></a>
                   <p class="copyright">Vieron © 2023</p>
               </div>
           </div>
