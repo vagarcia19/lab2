@@ -112,21 +112,6 @@
         <input type="submit" name="submit" value="Submit">  
         </form>
 
-        <div class="col-sm-4 col-md-3 item">
-            <?php
-                echo "<h2>Your Input:</h2>";
-                echo $name;
-                echo "<br>";
-                echo $email;
-                echo "<br>";
-                echo $website;
-                echo "<br>";
-                echo $comment;
-                echo "<br>";
-                echo $gender;
-                echo "<br>";
-            ?>
-        </div>
 <?php
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") 
