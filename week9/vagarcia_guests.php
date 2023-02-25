@@ -49,6 +49,8 @@
         $result = $conn->query($sql);
 
         echo "<h2> Your Guests </h2>";
+        echo "<br>";
+        echo "<br>";
         if ($result->num_rows > 0) {
             // output data of each row
             while($row = $result->fetch_assoc()) {
