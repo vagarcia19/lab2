@@ -245,3 +245,13 @@ div.forms{
   left: 35%;
 }
 
+#about2{
+  position: absolute;
+  color: #fff;
+  white-space: nowrap;
+  font-family: 'Times New Roman';
+  font-size: 20px;
+  z-index: 9;
+  top: 30%;
+  left: 25%;
+}

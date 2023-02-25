@@ -32,7 +32,7 @@
     <img src="stars.png" id="stars" width="120%" height="120%">
   </section>
 
-<div id = "about">
+<div id = "about2">
     <?php
         $servername = "192.168.150.213";
         $username = "webprogmi212";
@@ -51,7 +51,7 @@
         if ($result->num_rows > 0) {
             // output data of each row
             while($row = $result->fetch_assoc()) {
-            echo "id: " . $row["id"]. " - Name: " . $row["name"]. " - Email" . $row["email"]. " - Website: " . $row["website"]. " - Comment: " . $row["comment"]. " - Gender: " . $row["gender"]."<br>";
+            echo "Your guests:". "id: " . $row["id"]. " - Name: " . $row["name"]. " - Email" . $row["email"]. " - Website: " . $row["website"]. " - Comment: " . $row["comment"]. " - Gender: " . $row["gender"]."<br>";
             }
         } else {
             echo "0 results";
