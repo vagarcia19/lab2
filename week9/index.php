@@ -36,11 +36,8 @@
     <img src="bundok.png" id="bundok"width="100%" height="100%">
 </section>
 
-<div class="sec" id="sec">
-    <h2>ANG KALASAG</h2>
-    <p>Pag dating sa pagawa ng perpektong kagamitan sa iyong paglalaro, mahalaga ang lahat ng detalye. 
-        Gamit ang aming mga parapernalya, maari mong maidala ng ibang dimension ang iyong karanasan sa pag lalaro. 
-        Ang lahat ng malulupet ay handa naming ilagay sa iyong bagahe<br><br></p>
+<div id="sec">
+  
 </div>
 <script>
     let moon = document.getElementById('stars')
