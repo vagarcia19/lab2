@@ -58,15 +58,15 @@
               <div class="col-sm-4 col-md-3 item">
                   <h3> --------------- </h3>
                   <ul>
-                      <li><a href="#">HTML/CSS</a></li>
-                      <li><a href="#">JavaScript</a></li>
-                      <li><a href="#">php</a></li>
+                      <li><a href="#">Stack Overflow</a></li>
+                      <li><a href="#">Coolors</a></li>
+                      <li><a href="#">Pinterest</a></li>
                   </ul>
               </div>
               <div class="col-sm-4 col-md-3 item">
                   <h3>  ---------------  </h3>
                   <ul>
-                      <li><a href="#">MySQL</a></li>
+                      <li><a href="#">LinkedIn</a></li>
                   </ul>
               </div>
               <div class="col-lg-3 item social"><a href="https://www.facebook.com/dakto.box"><i class="icon ion-social-facebook"></i></a><a href="https://twitter.com/"><i class="icon ion-social-twitter"></i></a><a href="https://www.snapchat.com/"><i class="icon ion-social-snapchat"></i></a><a href="https://www.instagram.com/"><i class="icon ion-social-instagram"></i></a>

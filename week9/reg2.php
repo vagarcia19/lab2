@@ -113,35 +113,35 @@
         <input type="submit" name="submit" value="Submit">  
         </form>
 
-<?php
+    <?php
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") 
-{
+        if ($_SERVER["REQUEST_METHOD"] == "POST") 
+        {
 
-	$servername = "192.168.150.213";
-	$username = "webprogmi212";
-    $password = "b3ntRhino98";
-    $dbname = "webprogmi212";
-    
-	// Create connection
-	$conn = new mysqli($servername, $username, $password, $dbname);
-	// Check connection
-	if ($conn->connect_error) {
-	die("Connection failed: " . $conn->connect_error);
-	}
-	
-    $sql = "INSERT INTO vagarcia_myguests (name,email, website,comment,gender)
-	VALUES ('$name', '$email','$website','$comment','$gender')";
-	
-	if ($conn->query($sql) === TRUE) {
-    echo "New record created successfully";
-	} else {
-	echo "Error: " . $sql . "<br>" . $conn->error;
-	}
-	
-	$conn->close();
-}	
-?>
+            $servername = "192.168.150.213";
+            $username = "webprogmi212";
+            $password = "b3ntRhino98";
+            $dbname = "webprogmi212";
+            
+            // Create connection
+            $conn = new mysqli($servername, $username, $password, $dbname);
+            // Check connection
+            if ($conn->connect_error) {
+            die("Connection failed: " . $conn->connect_error);
+            }
+            
+            $sql = "INSERT INTO vagarcia_myguests (name,email, website,comment,gender)
+            VALUES ('$name', '$email','$website','$comment','$gender')";
+            
+            if ($conn->query($sql) === TRUE) {
+            echo "New record created successfully";
+            } else {
+            echo "Error: " . $sql . "<br>" . $conn->error;
+            }
+            
+            $conn->close();
+        }	
+    ?>
 </div>
 <div class="footer-clean">
   <footer>
@@ -158,15 +158,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST")
               <div class="col-sm-4 col-md-3 item">
                   <h3> --------------- </h3>
                   <ul>
-                      <li><a href="#">HTML/CSS</a></li>
-                      <li><a href="#">JavaScript</a></li>
-                      <li><a href="#">php</a></li>
+                      <li><a href="#">Stack Overflow</a></li>
+                      <li><a href="#">Coolors</a></li>
+                      <li><a href="#">Pinterest</a></li>
                   </ul>
               </div>
               <div class="col-sm-4 col-md-3 item">
                   <h3>  ---------------  </h3>
                   <ul>
-                      <li><a href="#">MySQL</a></li>
+                      <li><a href="#">LinkedIn</a></li>
                   </ul>
               </div>
               <div class="col-lg-3 item social"><a href="https://www.facebook.com/dakto.box"><i class="icon ion-social-facebook"></i></a><a href="https://twitter.com/"><i class="icon ion-social-twitter"></i></a><a href="https://www.snapchat.com/"><i class="icon ion-social-snapchat"></i></a><a href="https://www.instagram.com/"><i class="icon ion-social-instagram"></i></a>
